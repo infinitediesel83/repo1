@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>pass</title>
+</head>
+<body>
+<h1> <b> FORM DETAILS</b> </h>
+<h3>title: {{title}}</h>
+<h3>fed_learning: {{fed_learning}}</h>
+<h3>client: {{client}}</h>
+<h3>SVM: {{SVM}}</h>
+<h3>NB: {{NB}}</h>
+<h3>DT: {{DT}}</h>
+<h3>RF: {{RF}}</h>
+<h3>KNN: {{KNN}}</h>
+<h3>LR: {{LR}}</h>
+<h3>CNN: {{CNN}}</h>
+<h3>CNN_layers: {{CNN_layers}}</h>
+<h3>Aug: {{Aug}}</h>
+<h3>size_Aug: {{size_Aug}}</h>
+<h3>Accuracy: {{Accuracy}}</h>
+<h3>precision: {{precision}}</h>
+<h3>Recall: {{Recall}}</h>
+<h3>auc: {{auc}}</h>
+<h3>confusion: {{confusion}}</h>
+<h3>tpr: {{tpr}}</h>
+<h3>dcr: {{dcr}}</h>
+
+<h1> <b> RESULT</b> </h>
+<div>
+<h3>Confusion Matric</h>
+<img src="{{ CM }}" height="500px" width="600px" alt="img_path">
+<h3>ROC</h>
+<img src="{{ ROC }}" height="500px" width="600px" alt="img_path">
+
+</div>
+<div>
+<h3>Activation</h>
+<img src="{{ act }}" height="500px" width="600px" alt="img_path">
+<h3>conv2d</h>
+<img src="{{ con }}" height="500px" width="600px" alt="img_path">
+
+
+</div>
+<div>
+<h3>Max Pooling</h>
+<img src="{{ ma }}" height="500px" width="600px" alt="img_path">
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+pandas
+keras
+flask
+tensorflow
+os
+matplotlib
+numpy
+opencv-python-headless
+sklearn
+seaborn
+skimage
+mahotas
+imutils
+scikit-image
